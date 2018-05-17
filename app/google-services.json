@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "627651881567",
+    "firebase_url": "https://cell-solutions-1.firebaseio.com",
+    "project_id": "cell-solutions-1",
+    "storage_bucket": "cell-solutions-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627651881567:android:142fb2f636c4137b",
+        "android_client_info": {
+          "package_name": "org.freeflow.cellsolutions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627651881567-5i7nilm5l5m5r33kr0jrqbo43dfniche.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi6KAemoC0zSHnvx2b00uo9PoKNoUTBpc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
