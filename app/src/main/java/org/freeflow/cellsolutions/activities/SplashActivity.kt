@@ -1,4 +1,4 @@
-package org.freeflow.cellsolutions
+package org.freeflow.cellsolutions.activities
 
 import android.app.Activity
 import android.content.Intent
@@ -8,6 +8,8 @@ import android.os.Handler
 import com.firebase.ui.auth.AuthUI
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
+import org.freeflow.cellsolutions.R
+import org.freeflow.cellsolutions.models.User
 import org.jetbrains.anko.startActivity
 import java.util.*
 

@@ -1,4 +1,4 @@
-package org.freeflow.cellsolutions
+package org.freeflow.cellsolutions.activities
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -11,6 +11,10 @@ import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem
 import com.firebase.ui.auth.AuthUI
 import com.ncapdevi.fragnav.FragNavController
 import kotlinx.android.synthetic.main.activity_main.*
+import org.freeflow.cellsolutions.fragments.HomeFragment
+import org.freeflow.cellsolutions.fragments.InfoFragment
+import org.freeflow.cellsolutions.fragments.OffersFragment
+import org.freeflow.cellsolutions.R
 
 class MainActivity : AppCompatActivity(), FragNavController.RootFragmentListener {
 

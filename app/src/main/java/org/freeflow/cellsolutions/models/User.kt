@@ -1,4 +1,4 @@
-package org.freeflow.cellsolutions
+package org.freeflow.cellsolutions.models
 
 data class User(
     var name: String = "",
