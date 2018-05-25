@@ -15,6 +15,7 @@ import org.freeflow.cellsolutions.fragments.HomeFragment
 import org.freeflow.cellsolutions.fragments.InfoFragment
 import org.freeflow.cellsolutions.fragments.OffersFragment
 import org.freeflow.cellsolutions.R
+import org.freeflow.cellsolutions.fragments.SentFragment
 
 class MainActivity : AppCompatActivity(), FragNavController.RootFragmentListener {
 
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity(), FragNavController.RootFragmentListener
         return when (index) {
             0 -> HomeFragment()
             1 -> OffersFragment()
-            2 -> InfoFragment()
+            2 -> SentFragment()
             else -> {
                 throw IllegalStateException("Index Invalid")
             }
